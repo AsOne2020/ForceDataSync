@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.asone.forcedatasync.mixins",
+  "plugin": "me.asone.forcedatasync.MixinConfigPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "tweakermore.MixinServerDataSyncer",
+    "litematica.MixinEntitiesDataStorage",
+    "minihud.MixinEntitiesDataManager",
+    "tweakeroo.MixinServerDataSyncer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

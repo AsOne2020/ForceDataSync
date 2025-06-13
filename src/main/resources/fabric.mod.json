@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "forcedatasync",
+  "version": "${version}",
+  "name": "ForceDataSync",
+  "description": "Skip DataSync op permission checks for Tweakeroo/MiniHUD/Litematica/Tweakermore",
+  "authors": ["As_One"],
+  "contact": {
+    "sources": "https://github.com/AsOne2020/ForceDataSync"
+  },
+  "license": "LGPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.asone.forcedatasync.ForceDataSync"
+    ]
+  },
+  "mixins": [
+    "forcedatasync.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.21.4",
+    "conditional-mixin": ">=0.2.0",
+    "mixinextras": ">=0.3.0"
+  }
+}
