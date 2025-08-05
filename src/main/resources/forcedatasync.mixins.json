@@ -8,7 +8,8 @@
     "tweakermore.MixinServerDataSyncer",
     "litematica.MixinEntitiesDataStorage",
     "minihud.MixinEntitiesDataManager",
-    "tweakeroo.MixinServerDataSyncer"
+    "tweakeroo.MixinServerDataSyncer",
+    "clientcommands.MixinFindItemCommand"
   ],
   "injectors": {
     "defaultRequire": 1
